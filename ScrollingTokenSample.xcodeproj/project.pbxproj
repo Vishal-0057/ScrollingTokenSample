@@ -14,6 +14,10 @@
 		BE1600811B4E5EEE0095DAA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1600801B4E5EEE0095DAA1 /* Images.xcassets */; };
 		BE1600841B4E5EEE0095DAA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1600821B4E5EEE0095DAA1 /* LaunchScreen.xib */; };
 		BE1600901B4E5EEE0095DAA1 /* ScrollingTokenSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE16008F1B4E5EEE0095DAA1 /* ScrollingTokenSampleTests.m */; };
+		BE16009B1B4E78BD0095DAA1 /* TITokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = BE16009A1B4E78BD0095DAA1 /* TITokenField.m */; };
+		BE16009E1B4E7B460095DAA1 /* UIView+Genie.m in Sources */ = {isa = PBXBuildFile; fileRef = BE16009D1B4E7B460095DAA1 /* UIView+Genie.m */; };
+		BE1600A11B4E7B570095DAA1 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1600A01B4E7B570095DAA1 /* UIColor+Hex.m */; };
+		BE1600A41B4E81F90095DAA1 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1600A31B4E81F90095DAA1 /* CustomButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		BE1600891B4E5EEE0095DAA1 /* ScrollingTokenSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingTokenSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE16008E1B4E5EEE0095DAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE16008F1B4E5EEE0095DAA1 /* ScrollingTokenSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollingTokenSampleTests.m; sourceTree = "<group>"; };
+		BE1600991B4E78BD0095DAA1 /* TITokenField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TITokenField.h; sourceTree = "<group>"; };
+		BE16009A1B4E78BD0095DAA1 /* TITokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TITokenField.m; sourceTree = "<group>"; };
+		BE16009C1B4E7B460095DAA1 /* UIView+Genie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Genie.h"; sourceTree = "<group>"; };
+		BE16009D1B4E7B460095DAA1 /* UIView+Genie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Genie.m"; sourceTree = "<group>"; };
+		BE16009F1B4E7B570095DAA1 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		BE1600A01B4E7B570095DAA1 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		BE1600A21B4E81F90095DAA1 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		BE1600A31B4E81F90095DAA1 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,14 @@
 		BE1600721B4E5EEE0095DAA1 /* ScrollingTokenSample */ = {
 			isa = PBXGroup;
 			children = (
+				BE1600A21B4E81F90095DAA1 /* CustomButton.h */,
+				BE1600A31B4E81F90095DAA1 /* CustomButton.m */,
+				BE16009F1B4E7B570095DAA1 /* UIColor+Hex.h */,
+				BE1600A01B4E7B570095DAA1 /* UIColor+Hex.m */,
+				BE16009C1B4E7B460095DAA1 /* UIView+Genie.h */,
+				BE16009D1B4E7B460095DAA1 /* UIView+Genie.m */,
+				BE1600991B4E78BD0095DAA1 /* TITokenField.h */,
+				BE16009A1B4E78BD0095DAA1 /* TITokenField.m */,
 				BE1600771B4E5EEE0095DAA1 /* AppDelegate.h */,
 				BE1600781B4E5EEE0095DAA1 /* AppDelegate.m */,
 				BE16007A1B4E5EEE0095DAA1 /* ViewController.h */,
@@ -220,8 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE16007C1B4E5EEE0095DAA1 /* ViewController.m in Sources */,
+				BE1600A11B4E7B570095DAA1 /* UIColor+Hex.m in Sources */,
 				BE1600791B4E5EEE0095DAA1 /* AppDelegate.m in Sources */,
+				BE1600A41B4E81F90095DAA1 /* CustomButton.m in Sources */,
 				BE1600761B4E5EEE0095DAA1 /* main.m in Sources */,
+				BE16009E1B4E7B460095DAA1 /* UIView+Genie.m in Sources */,
+				BE16009B1B4E78BD0095DAA1 /* TITokenField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
